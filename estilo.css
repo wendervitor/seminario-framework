@@ -35,8 +35,11 @@
   width: 97.6%; }
 
 #cabecalho {
-  background-color: white;
+  background-color: #b3a0d9;
   text-align: center;
-  color: #a0d9d0; }
+  color: #1ED9D0; }
+
+body {
+  background-color: #b3a0d9; }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -1,12 +1,20 @@
-$corum : #a0d9d0;
+$corum : #1ED9D0;
 $cordois : white;
+$cortres: #b3a0d9;
 @for $i from 1 to 13{
     .col#{$i}{
         width: (8.30% * $i)-2%;
+        float: left;
+        padding: 1%;
+        padding-bottom:99999px; 
     }
 }
 #cabecalho{
-    background-color: $cordois;
+    background-color: $cortres;
     text-align: center;
-    color: $corum
+    color: $corum;
 }
+body{
+    background-color: $cortres;
+}
+
