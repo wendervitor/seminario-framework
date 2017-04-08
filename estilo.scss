@@ -1,20 +1,81 @@
-$corum : #1ED9D0;
+$corum : #046380;
 $cordois : white;
-$cortres: #b3a0d9;
-@for $i from 1 to 13{
+$cortres: #002F2F;
+$corquatro: #E6E2AF;
+$corcinco: #EFECCA;
+
+@for $i from 1 to 6{
     .col#{$i}{
-        width: (8.30% * $i)-2%;
+        width: ((100%/5%)*$i)-2%;
         float: left;
         padding: 1%;
-        padding-bottom:99999px; 
+        padding-bottom: 323232px;
+        margin-bottom: -323232px;
     }
 }
-#cabecalho{
-    background-color: $cortres;
-    text-align: center;
-    color: $corum;
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
 }
 body{
     background-color: $cortres;
 }
+#cabecalho{
+    background-color: $cortres;
+    text-align: center;
+    color: $corquatro;
+    padding-top: 1px;
+    font-family: 'Merriweather', serif;
+}
+#msg{
+    background-color: $corquatro;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#conteudo{
+    background-color: $corcinco;
+    text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+    border-radius: 40px 40px 50px 50px;
+}
+.btn-primary{
+    border: 2px solid $corum;
+    border-radius: 25px;
+    background-color: $corum;
+    color: $cordois;
+    padding: 10px 4px 10px 4px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 4px;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+.badge{
+    border: 2px solid $cordois;
+    border-radius: 25px;
+    background-color: $cordois;
+    color: $corum;
+    padding: 4px 4px 4px 4px;
+}
 
+#mensagem{
+    text-align: justify;
+    margin: auto;
+    padding: auto;
+    border: 2px solid black;
+    border-radius: 0px 30px 0px 30px;
+    background-color: white;
+}
+
+.mensagem{
+    text-align: center;
+    margin: 10px 80px 0px 80px;
+    padding: 2px;
+}

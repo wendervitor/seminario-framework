@@ -1,45 +1,100 @@
 .col1 {
-  width: 6.3%; }
+  width: 18%;
+  float: left;
+  padding: 1%;
+  padding-bottom: 323232px;
+  margin-bottom: -323232px; }
 
 .col2 {
-  width: 14.6%; }
+  width: 38%;
+  float: left;
+  padding: 1%;
+  padding-bottom: 323232px;
+  margin-bottom: -323232px; }
 
 .col3 {
-  width: 22.9%; }
+  width: 58%;
+  float: left;
+  padding: 1%;
+  padding-bottom: 323232px;
+  margin-bottom: -323232px; }
 
 .col4 {
-  width: 31.2%; }
+  width: 78%;
+  float: left;
+  padding: 1%;
+  padding-bottom: 323232px;
+  margin-bottom: -323232px; }
 
 .col5 {
-  width: 39.5%; }
+  width: 98%;
+  float: left;
+  padding: 1%;
+  padding-bottom: 323232px;
+  margin-bottom: -323232px; }
 
-.col6 {
-  width: 47.8%; }
-
-.col7 {
-  width: 56.1%; }
-
-.col8 {
-  width: 64.4%; }
-
-.col9 {
-  width: 72.7%; }
-
-.col10 {
-  width: 81%; }
-
-.col11 {
-  width: 89.3%; }
-
-.col12 {
-  width: 97.6%; }
-
-#cabecalho {
-  background-color: #b3a0d9;
-  text-align: center;
-  color: #1ED9D0; }
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 100%; }
 
 body {
-  background-color: #b3a0d9; }
+  background-color: #002F2F; }
+
+#cabecalho {
+  background-color: #002F2F;
+  text-align: center;
+  color: #E6E2AF;
+  padding-top: 1px;
+  font-family: 'Merriweather', serif; }
+
+#msg {
+  background-color: #E6E2AF;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+#conteudo {
+  background-color: #EFECCA;
+  text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.foto {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 8px;
+  border-radius: 40px 40px 50px 50px; }
+
+.btn-primary {
+  border: 2px solid #046380;
+  border-radius: 25px;
+  background-color: #046380;
+  color: white;
+  padding: 10px 4px 10px 4px;
+  transition: all .2s ease-in-out;
+  margin-bottom: 4px; }
+
+.btn-primary:hover {
+  transform: scale(1.1); }
+
+.badge {
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: white;
+  color: #046380;
+  padding: 4px 4px 4px 4px; }
+
+#mensagem {
+  text-align: justify;
+  margin: auto;
+  padding: auto;
+  border: 2px solid black;
+  border-radius: 0px 30px 0px 30px;
+  background-color: white; }
+
+.mensagem {
+  text-align: center;
+  margin: 10px 80px 0px 80px;
+  padding: 2px; }
 
 /*# sourceMappingURL=estilo.css.map */
