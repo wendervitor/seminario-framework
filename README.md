@@ -12,5 +12,5 @@ Sua página deverá:
 * Ter um setor que exibe o conteúdo da mensagem escolhida.
 * É necessário utilizar Badge(s), Label(s) e Progress Bar(s).
 
-Exemplo:
+[Exemplo](https://wendervitor.github.io/coltecmail.github.io/)
 
